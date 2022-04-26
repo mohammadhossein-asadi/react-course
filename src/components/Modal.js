@@ -10,7 +10,7 @@ function Modal(props) {
   return (
     <div className="modal">
       <p>Are you sure?</p>
-      <buttun className="btn btn--alt" onClick={props.onCancel}>
+      <buttun className="btn btn--alt" onClick={cancelHandler}>
         Cancle
       </buttun>
       <buttun className="btn" onClick={confirmHandler}>
